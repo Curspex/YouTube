@@ -1,0 +1,14 @@
+name: MyFirstPlugin
+version: 1.0.0
+author: Omnivion
+database: false
+main: sx.cur.omnivion.myfirstplugin.MyFirstPlugin
+commands:
+  helloworld:
+    description: HELLO WORLD COMMAND!!!
+    usage: /<command>
+    permission: mfp.helloworld
+    permission-message: No perms, lol!
+permissions:
+  mfp.helloworld:
+    default: op
