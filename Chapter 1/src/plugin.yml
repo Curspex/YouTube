@@ -1,0 +1,5 @@
+name: MyFirstPlugin
+version: 1.0.0
+author: Omnivion
+database: false
+main: sx.cur.omnivion.myfirstplugin.MyFirstPlugin
